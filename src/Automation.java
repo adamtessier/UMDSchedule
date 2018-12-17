@@ -33,7 +33,7 @@ public class Automation {
         	
         	Thread.sleep(10000);
         	File scrFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);  
-        FileUtils.copyFile(scrFile, new File(""));
+        FileUtils.copyFile(scrFile, new File("")); // add name of screenshot here
         	
         
         
